@@ -1,4 +1,3 @@
-
 ## Proficio Client
 
 This is the proficio client for Harvester 2.0
@@ -6,7 +5,7 @@ It only works with 2.0 and has only been implemented in the Mariners Museum onli
 This package relies on a sqlite data dump from Proficio that is created by the `extractor` repositiory: https://bitbucket.org/imalab/extractor
 
 ###Provided routes / proficioController methods:
-
+```
 example.site/proficio/getAllObjectIDs
 example.site/proficio/getAllObjectIDs?catalog=archive
 
@@ -24,7 +23,7 @@ example.site/proficio/getTableForObject/{id}?catalog=archive
 
 example.site/proficio/getTableForAllObjects/{table}
 example.site/proficio/getTableForAllObjects/{table}?catalog=archive&take=5&start=5
-
+```
 
 ### Laravel Setup
 
