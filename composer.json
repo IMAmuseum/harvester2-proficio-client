@@ -1,0 +1,8 @@
+{
+    "name": "imamuseum/proficio-client",
+    "autoload": {
+        "psr-4": {
+            "Imamuseum\\ProficioClient\\": "src/"
+        }
+    }
+}
