@@ -1,5 +1,14 @@
 {
     "name": "imamuseum/proficio-client",
+    "description": "Export data from Proficio Digital Asset Management System.",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "IMA Lab",
+            "email": "imalab@imamuseum.org",
+            "homepage": "http://lab.imamuseum.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Imamuseum\\ProficioClient\\": "src/"
