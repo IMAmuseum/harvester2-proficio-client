@@ -5,7 +5,6 @@ namespace Imamuseum\ProficioClient;
 use DB;
 use Exception;
 use Carbon\Carbon;
-use Imamuseum\ProficioClient\ProficioTransformer;
 use Imamuseum\ProficioClient\Traits\SqliteFunctions;
 
 class ProficioController
