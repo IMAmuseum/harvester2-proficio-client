@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits;
+namespace Imamuseum\ProficioClient\Traits;
 
 use DB;
 use Exception;
