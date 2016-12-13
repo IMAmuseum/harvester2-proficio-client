@@ -6,7 +6,7 @@ use DB;
 use Exception;
 use Carbon\Carbon;
 use Imamuseum\ProficioClient\ProficioTransformer;
-use App\Traits\SqliteFunctions;
+use Imamuseum\ProficioClient\Traits\SqliteFunctions;
 
 class ProficioController
 {
