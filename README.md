@@ -2,7 +2,7 @@
 
 This is the proficio client for Harvester 2.0
 It only works with 2.0 and has only been implemented in the Mariners Museum online collection
-This package relies on a sqlite data dump from Proficio that is created by the `extractor` repositiory: https://bitbucket.org/imalab/extractor
+This package relies on a sqlite data dump from Proficio that is created by the `extractor` repositiory (https://bitbucket.org/imalab/extractor)
 
 ###Provided routes / proficioController methods:
 ```
