@@ -15,6 +15,13 @@ trait SqliteFunctions
      */
     public function createSqlFunctions()
     {
+        // HASH - create a hash from given string
+        DB::connection(config('proficio.database_connection'))
+            ->getPdo()
+            ->sqliteCreateFunction('HASH', function ($string, $method = 'md5') {
+                return hash($method, $string);
+            });
+
         // REGEXCAPALL - perform preg_match_all and return all values
         DB::connection(config('proficio.database_connection'))
             ->getPdo()
